@@ -1,12 +1,86 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 
 .page.theme_light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #fff1f7;
+  --text-color-title: #ffc2e6;
+  --text-color-subtitle: #353430;
+  --text-color: #353430;
+  --text-accent-color: #353430;
+  --text-shadow: #ff8dcb;
+  --text-shadow-alt-title: #ff0070;
+  --accent-color: #ff8dcb;
+  --decor-corner-color: #353430;
+  --nav-color-border-default: #353430;
+  --nav-color-border-hover: rgba(50 49 45 / 0.4);
+  --link-underline-color: #353430;
+
+  background-image: url(/images/cover-image-light.png);
 }
+
+@media (prefers-color-scheme: light) {
+
+  body {
+    --bg-color: #fff1f7;
+    --text-color-title: #ffc2e6;
+    --text-color-subtitle: #353430;
+    --text-color: #353430;
+    --text-accent-color: #353430;
+    --text-shadow: #ff8dcb;
+    --text-shadow-alt-title: #ff0070;
+    --accent-color: #ff8dcb;
+    --decor-corner-color: #353430;
+    --nav-color-border-default: #353430;
+    --nav-color-border-hover: rgba(50 49 45 / 0.4);
+    --link-underline-color: #353430;
+  }
+}
+
+.page.theme_light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+
+  .page.theme_auto .header__rec {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+
+  .page.theme_auto {
+    background-image: url(/images/cover-image-light.png);
+  }
+}
+
+.theme_light .header__theme-menu-button_active,
+.theme_auto .header__theme-menu-button_active {
+  outline: 1px solid var(--nav-color-border-default);
+  pointer-events: none;
+}
+
+.theme_light .header__theme-menu-button:hover,
+.theme_auto .header__theme-menu-button:hover{
+  outline: 1px solid var(--nav-color-border-hover);
+}
+
+
+.theme_light .link-shadow-decor:hover {
+  border-bottom: 1px solid var(--link-underline-color);
+}
+
+@media (prefers-color-scheme: light) {
+
+  .page.theme_auto .link-shadow-decor:hover {
+    border-bottom: 1px solid var(--link-underline-color);
+  }
+}
+
+@media (width >= 1024px){
+
+	.header__title,
+.footer__title {
+  text-shadow: 0.25rem 0.25rem 0 var(--text-shadow-alt-title);
+}
+}
+
+

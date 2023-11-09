@@ -1,12 +1,50 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: #000028;
+  --text-color-title: #db00ff;
+  --text-color-subtitle: #000028;
+  --text-color: #f1b2ce;
+  --text-accent-color: #ff0070;
+  --text-shadow: #ff0070;
+  --accent-color: #ff0070;
+  --decor-corner-color: #ff0070;
+  --nav-color-border-default: #ff0070;
+  --nav-color-border-hover: rgba(255 0 112 / 0.4);
+  --link-underline-color: #f1b2ce;
+
+  background-image: url(/images/cover-image-dark.png);
+}
+
+.page.theme_dark .header__rec {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .page.theme_auto {
+    background-image: url(/images/cover-image-dark.png);
+  }
+}
+
+.theme_dark .header__theme-menu-button_active {
+  outline: 1px solid var(--nav-color-border-default);
+  pointer-events: none;
+}
+
+.theme_dark .header__theme-menu-button:hover {
+  outline: 1px solid var(--nav-color-border-hover);
+}
+
+.theme_dark .link-shadow-decor:hover {
+  border-bottom: 1px solid var(--link-underline-color);
+}
+
+.header__theme-menu-button_type_dark:hover {
+  outline: 0.0625rem solid rgba(255 0 112 / 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .page.theme_auto .link-shadow-decor:hover {
+    border-bottom: 1px solid var(--link-underline-color);
+  }
 }

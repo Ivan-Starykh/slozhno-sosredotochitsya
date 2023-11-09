@@ -1,4 +1,37 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  color-scheme: dark;
+  --bg-color: #000028;
+  --text-color-title: #db00ff;
+  --text-color-subtitle: #000028;
+  --text-color: #f1b2ce;
+  --text-accent-color: #ff0070;
+  --text-shadow: #ff0070;
+  --accent-color: #ff0070;
+  --decor-corner-color: #ff0070;
+  --nav-color-border-default: #ff0070;
+  --nav-color-border-hover: rgba(255 0 112 / 0.4);
+  --link-underline-color: #f1b2ce;
+  --main-font: "IBM Plex mono", serif;
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --accent-font-weight: 700;
+}
+
+.theme_light {
+  --bg-color: #ffc2e6;
+  --text-color-title: #ffc2e6;
+  --text-color-subtitle: #353430;
+  --text-color: #353430;
+  --text-accent-color: #353430;
+  --text-shadow: #ff0070;
+  --text-shadow-alt-title: #ff0070;
+  --accent-color: #ff8dcb;
+  --decor-corner-color: #353430;
+  --nav-color-border-default: #353430;
+  --nav-color-border-hover: rgba(50 49 45 / 0.4);
+  --link-underline-color: #353430;
+  --main-font: "IBM Plex mono", serif;
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --accent-font-weight: 700;
+}
