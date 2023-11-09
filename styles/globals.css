@@ -46,7 +46,7 @@ a:focus {
 
 button:focus-visible,
 a:focus-visible {
-	border-bottom: 1px solid var(--nav-color-border-default);
+  border-bottom: 1px solid var(--nav-color-border-default);
 }
 
 .page {

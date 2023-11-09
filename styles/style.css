@@ -4,7 +4,7 @@
   font-family: var(--main-font, serif);
   font-size: var(--main-font-size);
   font-weight: var(--main-font-weight);
-	overflow-x:hidden; 
+  overflow-x: hidden;
 }
 
 .header {
@@ -89,18 +89,18 @@
 
 @media (width >= 768px) {
 
-.decorated-zone::before {
-  top: 1.25rem;
-  right: 1.25rem;
-}
+  .decorated-zone::before {
+    top: 1.25rem;
+    right: 1.25rem;
+  }
 }
 
 @media (width >= 1024px) {
 
-	.decorated-zone::before {
-		right: 0.3rem;
-	}
-	}
+  .decorated-zone::before {
+    right: 0.3rem;
+  }
+}
 
 .header__theme-menu {
   margin-block-start: 4.04rem;
@@ -188,7 +188,7 @@
   .header__title {
     margin-block-start: 6.85rem;
     margin-inline-start: -0.625rem;
-		font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem); 
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
@@ -397,7 +397,7 @@
 @media (width >= 768px) {
 
   .three-column-title {
-  inline-size: 14.75rem;
+    inline-size: 14.75rem;
   }
 }
 
@@ -595,8 +595,8 @@
 @media (width >= 1024px) {
 
   .footer__title {
-		font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-		padding-inline-start: 0.625rem; 
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-inline-start: 0.625rem;
   }
 }
 
