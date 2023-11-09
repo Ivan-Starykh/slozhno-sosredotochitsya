@@ -8,6 +8,7 @@
 }
 
 .header {
+	height: 100%;
   padding-block-start: 0.625rem;
   padding-inline: 0.625rem;
 }
