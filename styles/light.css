@@ -12,7 +12,7 @@
   --nav-color-border-hover: rgba(50 49 45 / 0.4);
   --link-underline-color: #353430;
 
-  background-image: url(/images/cover-image-light.png);
+  background-image: url(./images/cover-image-light.png);
 }
 
 @media (prefers-color-scheme: light) {
@@ -47,7 +47,7 @@
 @media (prefers-color-scheme: light) {
 
   .page.theme_auto {
-    background-image: url(/images/cover-image-light.png);
+    background-image: url(./images/cover-image-light.png);
   }
 }
 

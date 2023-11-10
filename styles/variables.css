@@ -11,7 +11,7 @@
   --nav-color-border-default: #ff0070;
   --nav-color-border-hover: rgba(255 0 112 / 0.4);
   --link-underline-color: #f1b2ce;
-  --main-font: "IBM Plex mono", serif;
+  --main-font: "IBM Plex mono", monospace;
   --main-font-size: 18px;
   --main-font-weight: 400;
   --accent-font-weight: 700;
@@ -30,7 +30,7 @@
   --nav-color-border-default: #353430;
   --nav-color-border-hover: rgba(50 49 45 / 0.4);
   --link-underline-color: #353430;
-  --main-font: "IBM Plex mono", serif;
+  --main-font: "IBM Plex mono", monospace;
   --main-font-size: 18px;
   --main-font-weight: 400;
   --accent-font-weight: 700;

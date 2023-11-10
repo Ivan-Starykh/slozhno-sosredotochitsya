@@ -37,6 +37,7 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  cursor: pointer;
 }
 
 button:focus,
@@ -44,13 +45,10 @@ a:focus {
   outline: none;
 }
 
-button:focus-visible,
-a:focus-visible {
+button:focus-visible {
   border-bottom: 1px solid var(--nav-color-border-default);
 }
 
-.page {
-  background-size: 100% 100vh;
-  background-position: center;
-  background-attachment: fixed;
+a:focus-visible {
+  outline: 1px solid var(--link-underline-color);
 }
