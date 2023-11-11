@@ -10,19 +10,11 @@
   --nav-color-border-default: #ff0070;
   --nav-color-border-hover: rgba(255 0 112 / 0.4);
   --link-underline-color: #f1b2ce;
-
-  background-image: url(./images/cover-image-dark.png);
+  background-image: url(/images/cover-image-dark.png);
 }
 
 .page.theme_dark .header__rec {
   display: block;
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .page.theme_auto {
-    background-image: url(./images/cover-image-dark.png);
-  }
 }
 
 .theme_dark .header__theme-menu-button_active {
@@ -40,11 +32,4 @@
 
 .header__theme-menu-button_type_dark:hover {
   outline: 0.0625rem solid rgba(255 0 112 / 0.4);
-}
-
-@media (prefers-color-scheme: dark) {
-
-  .page.theme_auto .link-shadow-decor:hover {
-    border-bottom: 1px solid var(--link-underline-color);
-  }
 }
