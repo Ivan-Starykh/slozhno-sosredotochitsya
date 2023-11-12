@@ -16,6 +16,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   .page {
     --bg-color: #fff1f7;
     --text-color-title: #ffc2e6;
@@ -38,6 +39,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   .header__rec {
     display: none;
   }
@@ -57,6 +59,7 @@
 }
 
 @media (width >= 1024px) {
+
   .header__title,
   .footer__title {
     text-shadow: 0.25rem 0.25rem 0 var(--text-shadow-alt-title);
