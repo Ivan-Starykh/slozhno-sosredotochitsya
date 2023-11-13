@@ -10,7 +10,7 @@
   --nav-color-border-default: #ff0070;
   --nav-color-border-hover: rgba(255 0 112 / 0.4);
   --link-underline-color: #f1b2ce;
-  background-image: url(/images/cover-image-dark.png);
+  background-image: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark .header__rec {
@@ -19,7 +19,6 @@
 
 .theme_dark .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color-border-default);
-  pointer-events: none;
 }
 
 .theme_dark .header__theme-menu-button:hover {

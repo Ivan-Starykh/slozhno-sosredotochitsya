@@ -16,21 +16,3 @@
   --accent-font-weight: 700;
 }
 
-.theme_light {
-  --bg-color: #ffc2e6;
-  --text-color-title: #ffc2e6;
-  --text-color-subtitle: #353430;
-  --text-color: #353430;
-  --text-accent-color: #353430;
-  --text-shadow: #ff0070;
-  --text-shadow-alt-title: #ff0070;
-  --accent-color: #ff8dcb;
-  --decor-corner-color: #353430;
-  --nav-color-border-default: #353430;
-  --nav-color-border-hover: rgba(50 49 45 / 0.4);
-  --link-underline-color: #353430;
-  --main-font: "IBM Plex mono", monospace;
-  --main-font-size: 18px;
-  --main-font-weight: 400;
-  --accent-font-weight: 700;
-}

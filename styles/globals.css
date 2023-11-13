@@ -40,15 +40,4 @@ a {
   cursor: pointer;
 }
 
-button:focus,
-a:focus {
-  outline: none;
-}
 
-button:focus-visible {
-  border-bottom: 1px solid var(--nav-color-border-default);
-}
-
-a:focus-visible {
-  outline: 1px solid var(--link-underline-color);
-}

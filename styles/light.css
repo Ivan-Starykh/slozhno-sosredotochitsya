@@ -11,8 +11,26 @@
   --nav-color-border-default: #353430;
   --nav-color-border-hover: rgba(50 49 45 / 0.4);
   --link-underline-color: #353430;
+  background-image: url(../images/cover-image-light.png);
+}
 
-  background-image: url(/images/cover-image-light.png);
+.theme_light {
+  --bg-color: #ffc2e6;
+  --text-color-title: #ffc2e6;
+  --text-color-subtitle: #353430;
+  --text-color: #353430;
+  --text-accent-color: #353430;
+  --text-shadow: #ff0070;
+  --text-shadow-alt-title: #ff0070;
+  --accent-color: #ff8dcb;
+  --decor-corner-color: #353430;
+  --nav-color-border-default: #353430;
+  --nav-color-border-hover: rgba(50 49 45 / 0.4);
+  --link-underline-color: #353430;
+  --main-font: "IBM Plex mono", monospace;
+  --main-font-size: 18px;
+  --main-font-weight: 400;
+  --accent-font-weight: 700;
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,7 +48,7 @@
     --nav-color-border-default: #353430;
     --nav-color-border-hover: rgba(50 49 45 / 0.4);
     --link-underline-color: #353430;
-    background-image: url(/images/cover-image-light.png);
+    background-image: url(../images/cover-image-light.png);
   }
 }
 
@@ -47,7 +65,6 @@
 
 .theme_light .header__theme-menu-button_active {
   outline: 1px solid var(--nav-color-border-default);
-  pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
